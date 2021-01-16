@@ -332,4 +332,4 @@ jobs:
           AWS_S3_ENDPOINT: s3-us-west-2.amazonaws.com
           AWS_REGION: 'us-west-2'
           SOURCE_DIR: ${{ env.S3_ARTIFACT_PATH }}
-          DEST_DIR: builds/supercollider/osx #hardcoded for now
+          DEST_DIR: builds/supercollider/osx # hardcoded for now
